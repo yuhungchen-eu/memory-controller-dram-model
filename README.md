@@ -34,12 +34,12 @@ This project implements a simplified memory controller in SystemVerilog to model
 ## Example Waveform
 
 ### Full System Behavior
-![Full Waveform](results/waveform_full.png)
+![Full Waveform](Results/waveform_full.png)
 
 Overall controller behavior including write, refresh, and read phases.
 
 ### Read Burst and Latency (Zoom-In)
-![Zoomed Waveform](results/waveform_zoom.png)
+![Zoomed Waveform](Results/waveform_zoom.png)
 
 Demonstrates read latency and burst transfer (64 → 67), along with state transitions.
 
