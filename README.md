@@ -1,4 +1,4 @@
-# Memory Controller Modeling DRAM-like Timing (SystemVerilog)
+# Memory Controller Modeling DRAM-like Timing
 
 ## Overview
 This project implements a simplified memory controller in SystemVerilog to model key DRAM behaviors, including read/write latency, burst access, and periodic refresh cycles. The design demonstrates how memory access is scheduled and how timing constraints influence system-level behavior.
@@ -34,12 +34,12 @@ This project implements a simplified memory controller in SystemVerilog to model
 ## Example Waveform
 
 ### Full System Behavior
-![Full Waveform](3. results/waveform_full.png)
+![Full Waveform](results/waveform_full.png)
 
 Overall controller behavior including write, refresh, and read phases.
 
 ### Read Burst and Latency (Zoom-In)
-![Zoomed Waveform](3. results/waveform_zoom.png)
+![Zoomed Waveform](results/waveform_zoom.png)
 
 Demonstrates read latency and burst transfer (64 → 67), along with state transitions.
 
