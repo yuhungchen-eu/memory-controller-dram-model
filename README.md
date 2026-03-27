@@ -1,4 +1,4 @@
-# Simplified Memory Controller with DRAM-like Timing (SystemVerilog)
+# Memory Controller Modeling DRAM-like Timing (SystemVerilog)
 
 ## Overview
 This project implements a simplified memory controller in SystemVerilog to model key DRAM behaviors, including read/write latency, burst access, and periodic refresh cycles. The design demonstrates how memory access is scheduled and how timing constraints impact system behavior.
