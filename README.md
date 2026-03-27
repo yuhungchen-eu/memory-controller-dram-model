@@ -24,3 +24,15 @@ This project implements a simplified memory controller in SystemVerilog to model
 - Burst write stores sequential data
 - Burst read retrieves data with latency delay
 - Refresh temporarily blocks memory operations
+
+## Example Waveform
+
+### Full System Behavior
+![Full Waveform](waveform_full.png)
+
+Shows overall controller behavior including write, refresh, and read phases.
+
+### Read Burst and Latency (Zoom-In)
+![Zoomed Waveform](waveform_zoom.png)
+
+Demonstrates read latency and burst transfer (64 → 67), along with state transitions.
