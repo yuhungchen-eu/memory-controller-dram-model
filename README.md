@@ -26,14 +26,6 @@ This project implements a simplified memory controller in SystemVerilog to model
 - `waveform_full.png` — full simulation overview
 - `waveform_zoom.png` — zoomed-in read burst and latency behavior
 
-## How to Run
-Compile and simulate using Icarus Verilog:
-
-```bash
-iverilog -g2012 -o memory_controller_tb memory_controller.sv memory_controller_tb.sv
-vvp memory_controller_tb
-gtkwave memory_controller.vcd
-
 ## Example Behavior
 - Burst write stores sequential data across consecutive addresses
 - Burst read retrieves data with defined latency before output
@@ -50,3 +42,12 @@ Overall controller behavior including write, refresh, and read phases.
 ![Zoomed Waveform](waveform_zoom.png)
 
 Demonstrates read latency and burst transfer (64 → 67), along with state transitions.
+
+
+## How to Run
+Compile and simulate using Icarus Verilog:
+
+```bash
+iverilog -g2012 -o memory_controller_tb memory_controller.sv memory_controller_tb.sv
+vvp memory_controller_tb
+gtkwave memory_controller.vcd
